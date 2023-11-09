@@ -1,1 +1,1 @@
-CashWave - A Finance Institution
+CashWave - A Finance Solutions Apllication
