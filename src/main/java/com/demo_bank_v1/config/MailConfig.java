@@ -19,8 +19,8 @@ public class MailConfig {
         // Set Mail Credentials:
         emailConfig.setHost("localhost");
         emailConfig.setPort(25);
-        emailConfig.setUsername("zoro@shadow.com");
-        emailConfig.setPassword("zoro123");
+        emailConfig.setUsername({emailId}); // add your thunderbird setup mail
+        emailConfig.setPassword({mailPassword}); // add your thunderbird setup mail password
         return emailConfig;
 
     }
