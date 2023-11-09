@@ -1,0 +1,71 @@
+*{
+     box-sizing: border-box;
+}
+
+/* Main Body  */
+
+body{
+    height: 100vh;
+    background-image: url("../images/isometric-e-learning-background-template.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#sample-text-card{
+    margin: 0px 100px;
+    font-family: 'Comfortaa';
+    color: white;
+}
+
+#sample-text-card h1{
+    font-size: 65px;
+}
+
+#sample-text-card p{
+    font-size: 16px;
+}
+
+.button-wrapper a {
+    width: 200px;
+    padding: 15px;
+    color: white;
+    box-shadow:  1px 3px 5px rgb(2, 2, 49);
+
+}
+
+.register {
+    margin-right: 7px;
+    background-color:  #FF4E00;
+    border: 1px solid #882800;
+}
+
+.login {
+    background-color: #FFB114;
+}
+
+/* registration/login form  */
+
+.card .form-control{
+    margin: 10px 0px;
+    box-shadow:  1px 3px 5px rgb(2, 2, 49);
+}
+
+.card {
+    font-family: 'Comfortaa';
+}
+
+.card .card-title{
+    color: white;
+}
+
+.card button {
+    background-color:  #FF4E00;
+    border: 1px solid #882800;
+    color: white;
+    width: 200px;
+    margin: 10px 0px;
+    box-shadow:  1px 3px 5px rgb(2, 2, 49);
+    padding: 10px;
+}

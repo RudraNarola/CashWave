@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+
+/* Main Body  */
+
+body{
+    background-color: rgb(201, 205, 219);
+}
+
+.container{
+    margin: 10px auto;
+}
+
+
+.main-page-header {
+    padding: 10px 0px;
+}
+
+.main-page-header .company-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* navigation   */
+
+/* .container {
+    justify-content: space-between;
+} */
+
+.navigation {
+    margin-left: 90px;
+}
+
+.navigation li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* user profile  */
+
+.display-name {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+/* transcat button  */
+
+#transact-btn 
+{
+    background-color: #FFB114;
+    border: 1px solid #543800;
+}
+
+#add-account-btn {
+    background-color:  #FF4E00;
+    border: 1px solid #882800;
+    color: white;
+}
+
+/* Offcanvas Background */
+
+.offcanvas {
+    background-color: rgb(23, 89, 255);
+}
+
+.transact-btn {
+    background-color:  #FF4E00;
+    border: 1px solid #882800;
+    color: white;
+}
+
+
+/* Card: Payment card  --> */
+
+.payment-card {
+    display: none;
+}
+
+/* Card: transfer card  --> */
+.transfer-card {
+    display: none;
+}
+
+/* Card: deposit card  --> */
+.deposit-card {
+    display: none;
+}
+
+/* Card: withdraw card  --> */
+
+.withdraw-card {
+    display: none;
+}
